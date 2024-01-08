@@ -14,11 +14,12 @@ body {
 }
 
 .header-section {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%), url('../resources/Banner\ Image.png');
     height: 600px;
     max-width: 1320px;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 16px;
 }
 
 .header-section h4 {
@@ -29,16 +30,60 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 130px 200px  0px 200px;
+    padding: 130px 200px 0px 200px;
 }
 
-.header-section h1{
+.header-section h1 {
     color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 60px;
-font-style: normal;
-font-weight: 900;
-line-height: 65px; /* 131.944% */
-padding: 10px 200px  0px 200px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65px;
+    padding: 10px 200px 0px 200px;
+}
+
+.Off {
+    padding: 0px 250px;
+}
+
+.off-content-heading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off-content-description {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+}
+
+.off-content-sub-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+.off-img{
+    margin-top: 48px;
+}
+.off-img img{
+    width: 502.9px;
+    height: 300px;
+    justify-content: center;
 }
