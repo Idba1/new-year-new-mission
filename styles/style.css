@@ -98,9 +98,7 @@ body {
     border-radius: 8px;
 }
 
-.mid-night-party-content {
-    padding: 126px 10px 20px 120px;
-}
+
 
 .mid-night-party-content h1 {
     color: #FFF;
@@ -143,10 +141,43 @@ body {
 }
 
 
-.mid-night-party-btn{
+.mid-night-party-btn {
     padding: 20px 40px 30px 80px;
 }
 
-.mid-night-party-image{
+.mid-night-party-image {
     padding: 50px;
+}
+
+.best-gift-content h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.best-gift-content h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.best-gift-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    height: 64px;
+    margin-top: 22px;
 }
