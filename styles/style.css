@@ -149,6 +149,12 @@
     padding: 50px;
 }
 
+.best-gift-image:hover{
+    cursor: pointer;
+}
+.best-gift-image img:hover{
+    background-color: rgb(0, 0, 0);
+}
 .best-offer-content{
     height: 35%;
     width: 33.33%;
