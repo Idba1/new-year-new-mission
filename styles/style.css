@@ -179,19 +179,32 @@
     line-height: 32px;
     width: 896px;
     height: 64px;
-    margin-top: 22px;
+    margin: 22px 0px 48px 0px;
 }
 
-/* .best-gift-image {
-    width: 424px;
-    height: 450px;
-    flex-shrink: 0;
-} */
+.row-one img{
+    width: 98%;
+    height: 345;
+    
+}
+.row-one{
+    display: flex;
+}
+
+.row-two img{
+    width: 98%;
+    height: 345;
+    gap: 24px;
+}
+.row-two{
+    display: flex;
+}
 
 .subscribe-news-letter {
     height: 616px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
 }
 
 .email-icon {
