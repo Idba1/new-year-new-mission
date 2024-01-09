@@ -149,17 +149,24 @@
     padding: 50px;
 }
 
+.best-offer-content{
+    height: 35%;
+    width: 33.33%;
+    margin-right: 30px;
+}
 .new-best-offer {
+
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 616px;
     border-radius: 16px;
-    margin-top: 100px;
+
 }
 
 .best-offer-content h6 {
     color: #F00;
-    text-align: center;
+    text-align: left;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -170,7 +177,7 @@
 .best-offer-content h1 {
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 39px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -184,7 +191,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
 
 .best-gift-content h6 {
@@ -219,11 +225,22 @@
     height: 64px;
     margin: 22px 0px 48px 0px;
 }
+.best-offer-img{
+    height: 35%;
+    width: 33.33%;
+}
 
 .best-offer-img img {
+    width: 60%;
+    height: 90%;
+    flex-shrink: 0;
     border-radius: 463px;
     border: 15px solid #F00;
-    padding: 49px;
+    padding: 20px;
+}
+.best-offer-content-with-img{
+    height: 35%;
+    width: 33.33%;
 }
 .best-offer-content-with-img h1 {
     color: #F00;
